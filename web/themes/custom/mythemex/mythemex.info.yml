@@ -1,0 +1,13 @@
+name: mythemex
+type: theme
+description: 'Just my trainer theme'
+core_version_requirement: ^9
+base theme: false
+libraries:
+  - mythemex/bootstrap
+  - mythemex/custom
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
