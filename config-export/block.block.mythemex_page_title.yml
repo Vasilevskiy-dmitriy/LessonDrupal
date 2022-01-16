@@ -1,0 +1,20 @@
+uuid: daff8b10-5db3-4af3-b8e8-e0b8d3bcfd25
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mythemex
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: mythemex_page_title
+theme: mythemex
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

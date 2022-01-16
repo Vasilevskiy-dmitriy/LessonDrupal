@@ -1,0 +1,22 @@
+uuid: 75bb6680-e533-479b-b913-c058f85d678c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mythemex
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: mythemex_local_tasks
+theme: mythemex
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

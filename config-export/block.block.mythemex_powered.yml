@@ -1,0 +1,22 @@
+uuid: d44aee20-cf22-4b46-967e-b04f0b0470a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mythemex
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: mythemex_powered
+theme: mythemex
+region: header
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

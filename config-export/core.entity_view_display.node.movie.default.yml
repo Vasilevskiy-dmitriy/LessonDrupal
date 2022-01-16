@@ -1,0 +1,94 @@
+uuid: 244076a5-5b6d-4a68-a453-bd0bbede5f15
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.movie.body
+    - field.field.node.movie.field_category
+    - field.field.node.movie.field_comment_movie
+    - field.field.node.movie.field_image_movie
+    - field.field.node.movie.field_imdb_
+    - field.field.node.movie.field_kinopoisk
+    - field.field.node.movie.field_time
+    - node.type.movie
+  module:
+    - comment
+    - image
+    - text
+    - user
+id: node.movie.default
+targetEntityType: node
+bundle: movie
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_comment_movie:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_image_movie:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_imdb_:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_kinopoisk:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_time:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

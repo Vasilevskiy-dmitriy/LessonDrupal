@@ -1,0 +1,23 @@
+uuid: 0062e718-a709-4ee8-9644-8c0b0b339250
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time
+    - node.type.movie
+id: node.movie.field_time
+field_name: field_time
+entity_type: node
+bundle: movie
+label: time
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

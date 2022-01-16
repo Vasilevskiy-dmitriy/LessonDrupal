@@ -1,0 +1,22 @@
+uuid: 9410f0ca-ac77-479d-bd8e-2bad8e665028
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mythemex
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: mythemex_messages
+theme: mythemex
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

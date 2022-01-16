@@ -1,0 +1,22 @@
+uuid: 2ce7887b-04c6-4cc9-b6e9-4c298e4d2db2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mythemex
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: mythemex_content
+theme: mythemex
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

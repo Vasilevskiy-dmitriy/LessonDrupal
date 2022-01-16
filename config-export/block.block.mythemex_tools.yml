@@ -1,0 +1,27 @@
+uuid: a29848af-2ea8-4cfe-9327-caf4e38237f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - mythemex
+_core:
+  default_config_hash: TszJ7dH_11Qjmo_OpMzqznaED4Bvy1XfVnBzTC9LZXE
+id: mythemex_tools
+theme: mythemex
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

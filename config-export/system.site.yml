@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 8bc44d51-64ad-4fd9-8131-a4060bbbf0b6
+name: 'Information channel'
+mail: dima.vasilenko.com@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

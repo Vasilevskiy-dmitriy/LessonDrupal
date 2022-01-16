@@ -1,0 +1,8 @@
+uuid: 600c96c8-1937-410f-a498-a0ec8105a90b
+langcode: en
+status: true
+dependencies: {  }
+name: categories_movie
+vid: categories_movie
+description: ''
+weight: 0
